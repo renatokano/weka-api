@@ -58,6 +58,18 @@ public class testing {
 		Regression.smoReg("/home/renatokano/Desktop/machine.cpu.arff");				
 		System.out.println(".........................................");
 		
+		System.out.println("Test 12 ...");
+		System.out.println("Evaluate Class : ETAN Method");
+		//Evaluate.etan("/home/renatokano/tic-tac-toe/tic-tac-toe-0/tic-tac-toe.dataset.1.data-NumericToNominal-Rfirst-last.arff","/home/renatokano/tic-tac-toe/tic-tac-toe-0/tic-tac-toe.dataset.1.test-NumericToNominal-Rfirst-last.arff");				
+		Evaluate.etan("/home/renatokano/Downloads/iris.arff","/home/renatokano/Downloads/iris.arff", true, 10);
+		System.out.println(".........................................");
+		
+		System.out.println("Test 13 ...");
+		System.out.println("Evaluate Class : SVM Method");
+		//Evaluate.libsvm("/home/renatokano/tic-tac-toe/tic-tac-toe-0/tic-tac-toe.dataset.1.data-NumericToNominal-Rfirst-last.arff","/home/renatokano/tic-tac-toe/tic-tac-toe-0/tic-tac-toe.dataset.1.test-NumericToNominal-Rfirst-last.arff", false,10);				
+		Evaluate.libsvm("/home/renatokano/Downloads/iris.arff","/home/renatokano/Downloads/iris.arff", true, 10);
+		System.out.println(".........................................");
+		
 		System.out.println("[FINISH]");
 	}
 }
