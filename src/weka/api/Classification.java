@@ -1,14 +1,10 @@
 package weka.api;
 
 import weka.core.Instances;
-import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
-import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.Remove;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.trees.J48;
 import weka.classifiers.functions.SMO; 
-import java.io.File;
 
 public class Classification {
 	public static void naivebayes (String input) throws Exception {
