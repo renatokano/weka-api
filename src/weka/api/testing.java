@@ -34,8 +34,18 @@ public class testing {
 		System.out.println(".........................................");
 		
 		System.out.println("Test 7 ...");
-		System.out.println("Classification Class : Execute Method");
+		System.out.println("Classification Class : NaiveBayes Method");
 		Classification.naivebayes("/home/renatokano/Desktop/iris-weka-api.arff");				
+		System.out.println(".........................................");
+		
+		System.out.println("Test 8 ...");
+		System.out.println("Classification Class : J48 Method");
+		Classification.j48("/home/renatokano/Desktop/iris-weka-api.arff");				
+		System.out.println(".........................................");
+		
+		System.out.println("Test 9 ...");
+		System.out.println("Classification Class : SMO Method");
+		Classification.smo("/home/renatokano/Desktop/iris-weka-api.arff");				
 		System.out.println(".........................................");
 		
 		System.out.println("[FINISH]");
