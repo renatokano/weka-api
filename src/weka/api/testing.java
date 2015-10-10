@@ -48,6 +48,16 @@ public class testing {
 		Classification.smo("/home/renatokano/Desktop/iris-weka-api.arff");				
 		System.out.println(".........................................");
 		
+		System.out.println("Test 10 ...");
+		System.out.println("Regression Class : LinearRegression Method");
+		Regression.linearRegression("/home/renatokano/Desktop/machine.cpu.arff");				
+		System.out.println(".........................................");
+		
+		System.out.println("Test 11 ...");
+		System.out.println("Regression Class : SMOreg Method");
+		Regression.smoReg("/home/renatokano/Desktop/machine.cpu.arff");				
+		System.out.println(".........................................");
+		
 		System.out.println("[FINISH]");
 	}
 }
